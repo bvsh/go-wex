@@ -25,7 +25,7 @@ type TradeAPI struct {
 	lastNonce  int64
 }
 
-const tradeURL = "https://wex.link/tapi"
+const tradeURL = "https://wex.fit/tapi"
 
 // Auth provides API key and secret setting for Trade API
 func (tapi *TradeAPI) Auth(key string, secret string) {
